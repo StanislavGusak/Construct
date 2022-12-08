@@ -1,12 +1,17 @@
 body {
-    width: 1440px;
+    max-width: 1440px;
     background: #FFFFFF;
+    color: #000000;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
+}
+
+sup {
+    vertical-align: top;
 }
 
 mark {
@@ -21,6 +26,8 @@ i {
     font-style: italic;
 }
 
+/* header */
+
 .header__container {
     display: flex;
     justify-content: space-between;
@@ -29,19 +36,23 @@ i {
     max-width: 1200px;
 }
 
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
 .lang {
     font-family: 'Tourney';
     font-weight: 600;
     font-size: 22px;
     line-height: 18px;
-    text-align: center;
     letter-spacing: 0.04em;
-
 }
 
 .header__nav {
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
 }
 
 .nav__item--link {
@@ -51,36 +62,22 @@ i {
     line-height: 28px;
     letter-spacing: 0.03em;
     color: #000000;
-    mix-blend-mode: normal;
-    transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .nav__link::after {
     content: '/';
 }
 
-.logo {
-    position: relative;
-}
-
-.vector {
-    position: absolute;
-}
-
 /* main */
 
 .main {
     max-width: 1200px;
-    margin: 70px auto 90px;
+    margin: 0 auto 90px;
 }
 
-/* .section {
-
-} */
-
-/* .title {
-    
-} */
+.section {
+    margin-top: 70px;
+}
 
 .section__title {
     display: inline-block;
@@ -90,16 +87,13 @@ i {
     line-height: 48px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #000000;
 }
 
 .title__item {
-    display: inline-block;
-    vertical-align: top;
     font-family: 'Farro';
     font-weight: 300;
-    font-size: small;
-    line-height: 30px;
+    font-size: smaller;
+    line-height: 16px;
     letter-spacing: 0.04em;
 }
 
@@ -114,7 +108,3 @@ i {
 .underline {
     text-decoration: underline;
 }
-
-.italik {
-}
-
