@@ -64,8 +64,8 @@ i {
     color: #000000;
 }
 
-.nav__link::after {
-    content: '/';
+.nav__link {
+    margin: 0 5px;
 }
 
 /* main */
