@@ -4,6 +4,7 @@ body {
     color: #000000;
     margin: 0 auto;
     box-sizing: border-box;
+    font-family: 'PT Sans';
 }
 
 a {
@@ -98,7 +99,6 @@ i {
 }
 
 .section__text {
-    font-family: 'PT Sans';
     font-weight: 400;
     font-size: 28px;
     line-height: 48px;
